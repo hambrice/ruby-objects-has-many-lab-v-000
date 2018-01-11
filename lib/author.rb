@@ -6,7 +6,11 @@ class Author
     @posts = []
   end
   def posts
+<<<<<<< HEAD
     @posts
+=======
+    @posts = posts
+>>>>>>> 1fc00b822ed03428fb11b45eb760ba2279155b47
   end 
   def add_post(post)
     @posts << post 
@@ -19,7 +23,10 @@ class Author
     post.author = self
     @@post_count += 1 
   end
+<<<<<<< HEAD
   def self.post_count
     @@post_count
   end
+=======
+>>>>>>> 1fc00b822ed03428fb11b45eb760ba2279155b47
 end
